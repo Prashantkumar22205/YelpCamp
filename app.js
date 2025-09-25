@@ -138,7 +138,7 @@ app.use('/campgrounds/:id/reviews', reviewRoutes);
 app.get('/', (req, res) => {
     res.render('home')
 })
-
+// checking the ignored file is pished or not
 
 app.all(/(.*)/, (req, res, next) => {
     next(new ExpressError('Page not Found', 404))
