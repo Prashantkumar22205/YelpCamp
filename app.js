@@ -22,16 +22,16 @@ const userRoutes = require('./routes/user');
 const sanitizeV5 = require('./utils/mongoSanitizeV5.js');
 const mongoSanitize = require('express-mongo-sanitize');
 const helmet = require('helmet');
-const dbUrl = process.env.DB_URL;
-// 'mongodb://127.0.0.1:27017/yelp-camp'
-mongoose.connect(dbUrl, )
-    // useNewUrlParser: true,
-    // useUnifiedTopology: true,
+const MongoStore = require("connect-mongo");
+const dbUrl =process.env.DB_URL || 'mongodb://127.0.0.1:27017/yelp-camp';
+// 
+mongoose.connect(dbUrl,{
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
     
-   .then(() => console.log("MongoDB connected"))
-  .catch(err => console.log("MongoDB connection error:", err));
+
     
-// });
+});
 const db = mongoose.connection;
 db.on("error", console.error.bind(console, "connection error:"));
 db.once("open", () => {
@@ -47,7 +47,21 @@ app.use(express.urlencoded({ extended: true }));
 app.use(methodOverride('_method'));
 app.use(express.static(path.join(__dirname,'public' )))
 app.use(sanitizeV5({ replaceWith: '_' }));
+
+const store = MongoStore.create({
+    mongoUrl: dbUrl,
+    touchAfter: 24 * 60 * 60,
+    crypto: {
+        secret: 'thisshouldbeabettersecret!'
+    }
+});
+
+store.on("error" , function(e){
+    console.log("SESSION STORE ERROR" ,e)
+})
+
 const sessionConfig = {
+    store,
     name:'session',
     secret:'thissouldbeabettersecret',
     resave: false,
