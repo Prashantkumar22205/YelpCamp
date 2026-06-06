@@ -1,0 +1,82 @@
+Date : 2026-05-13 09:09:06
+Directory : d:\web deveploment\web by udemy\YelpCamp Project
+Total : 39 files,  12438 codes, 44 comments, 231 blanks, all 12713 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| JavaScript |         22 |      9,753 |         33 |        147 |      9,933 |
+| JSON       |          2 |      2,048 |          0 |          5 |      2,053 |
+| HTML       |         12 |        435 |         11 |         46 |        492 |
+| PostCSS    |          3 |        202 |          0 |         33 |        235 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++-------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                | files      | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                   |         39 |     12,438 |         44 |        231 |     12,713 |
+| . (Files)                                                                           |          5 |      2,275 |         12 |         46 |      2,333 |
+| cloudinary                                                                          |          1 |         18 |          0 |          3 |         21 |
+| controllers                                                                         |          3 |        121 |          0 |         26 |        147 |
+| models                                                                              |          3 |         78 |          0 |         17 |         95 |
+| public                                                                              |          6 |        326 |         12 |         47 |        385 |
+| public\javascripts                                                                  |          3 |        124 |         12 |         14 |        150 |
+| public\stylesheet                                                                   |          3 |        202 |          0 |         33 |        235 |
+| routes                                                                              |          3 |         43 |          4 |         22 |         69 |
+| seeds                                                                               |          3 |      9,094 |          0 |         15 |      9,109 |
+| utils                                                                               |          3 |         48 |          5 |          9 |         62 |
+| views                                                                               |         12 |        435 |         11 |         46 |        492 |
+| views (Files)                                                                       |          2 |         51 |          0 |          9 |         60 |
+| views\campgrounds                                                                   |          4 |        252 |         11 |         24 |        287 |
+| views\layouts                                                                       |          1 |         23 |          0 |          8 |         31 |
+| views\partials                                                                      |          3 |         40 |          0 |          2 |         42 |
+| views\users                                                                         |          2 |         69 |          0 |          3 |         72 |
++-------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                            | language   | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| d:\web deveploment\web by udemy\YelpCamp Project\app.js                             | JavaScript |        134 |         11 |         26 |        171 |
+| d:\web deveploment\web by udemy\YelpCamp Project\cloudinary\index.js                | JavaScript |         18 |          0 |          3 |         21 |
+| d:\web deveploment\web by udemy\YelpCamp Project\controllers\campgrounds.js         | JavaScript |         66 |          0 |         18 |         84 |
+| d:\web deveploment\web by udemy\YelpCamp Project\controllers\reviews.js             | JavaScript |         19 |          0 |          3 |         22 |
+| d:\web deveploment\web by udemy\YelpCamp Project\controllers\users.js               | JavaScript |         36 |          0 |          5 |         41 |
+| d:\web deveploment\web by udemy\YelpCamp Project\middleware.js                      | JavaScript |         56 |          0 |          9 |         65 |
+| d:\web deveploment\web by udemy\YelpCamp Project\models\campground.js               | JavaScript |         54 |          0 |          9 |         63 |
+| d:\web deveploment\web by udemy\YelpCamp Project\models\review.js                   | JavaScript |         12 |          0 |          4 |         16 |
+| d:\web deveploment\web by udemy\YelpCamp Project\models\user.js                     | JavaScript |         12 |          0 |          4 |         16 |
+| d:\web deveploment\web by udemy\YelpCamp Project\package-lock.json                  | JSON       |      2,011 |          0 |          1 |      2,012 |
+| d:\web deveploment\web by udemy\YelpCamp Project\package.json                       | JSON       |         37 |          0 |          4 |         41 |
+| d:\web deveploment\web by udemy\YelpCamp Project\public\javascripts\clusterMap.js   | JavaScript |         94 |         10 |          9 |        113 |
+| d:\web deveploment\web by udemy\YelpCamp Project\public\javascripts\showPageMap.js  | JavaScript |         16 |          0 |          2 |         18 |
+| d:\web deveploment\web by udemy\YelpCamp Project\public\javascripts\validateForm.js | JavaScript |         14 |          2 |          3 |         19 |
+| d:\web deveploment\web by udemy\YelpCamp Project\public\stylesheet\app.css          | PostCSS    |          8 |          0 |          1 |          9 |
+| d:\web deveploment\web by udemy\YelpCamp Project\public\stylesheet\home.css         | PostCSS    |         31 |          0 |          5 |         36 |
+| d:\web deveploment\web by udemy\YelpCamp Project\public\stylesheet\star.css         | PostCSS    |        163 |          0 |         27 |        190 |
+| d:\web deveploment\web by udemy\YelpCamp Project\routes\campgrounds.js              | JavaScript |         17 |          4 |         12 |         33 |
+| d:\web deveploment\web by udemy\YelpCamp Project\routes\reviews.js                  | JavaScript |         11 |          0 |          5 |         16 |
+| d:\web deveploment\web by udemy\YelpCamp Project\routes\user.js                     | JavaScript |         15 |          0 |          5 |         20 |
+| d:\web deveploment\web by udemy\YelpCamp Project\schemas.js                         | JavaScript |         37 |          1 |          6 |         44 |
+| d:\web deveploment\web by udemy\YelpCamp Project\seeds\cities.js                    | JavaScript |      9,002 |          0 |          0 |      9,002 |
+| d:\web deveploment\web by udemy\YelpCamp Project\seeds\index.js                     | JavaScript |         49 |          0 |         13 |         62 |
+| d:\web deveploment\web by udemy\YelpCamp Project\seeds\seedHelpers.js               | JavaScript |         43 |          0 |          2 |         45 |
+| d:\web deveploment\web by udemy\YelpCamp Project\utils\ExpressError.js              | JavaScript |          8 |          0 |          1 |          9 |
+| d:\web deveploment\web by udemy\YelpCamp Project\utils\catchAsync.js                | JavaScript |          5 |          0 |          0 |          5 |
+| d:\web deveploment\web by udemy\YelpCamp Project\utils\mongoSanitizeV5.js           | JavaScript |         35 |          5 |          8 |         48 |
+| d:\web deveploment\web by udemy\YelpCamp Project\views\campgrounds\edit.ejs         | HTML       |         57 |          0 |          5 |         62 |
+| d:\web deveploment\web by udemy\YelpCamp Project\views\campgrounds\index.ejs        | HTML       |         36 |          0 |          5 |         41 |
+| d:\web deveploment\web by udemy\YelpCamp Project\views\campgrounds\new.ejs          | HTML       |         48 |          7 |          5 |         60 |
+| d:\web deveploment\web by udemy\YelpCamp Project\views\campgrounds\show.ejs         | HTML       |        111 |          4 |          9 |        124 |
+| d:\web deveploment\web by udemy\YelpCamp Project\views\error.ejs                    | HTML       |         10 |          0 |          2 |         12 |
+| d:\web deveploment\web by udemy\YelpCamp Project\views\home.ejs                     | HTML       |         41 |          0 |          7 |         48 |
+| d:\web deveploment\web by udemy\YelpCamp Project\views\layouts\boilerplate.ejs      | HTML       |         23 |          0 |          8 |         31 |
+| d:\web deveploment\web by udemy\YelpCamp Project\views\partials\flash.ejs           | HTML       |         12 |          0 |          2 |         14 |
+| d:\web deveploment\web by udemy\YelpCamp Project\views\partials\footer.ejs          | HTML       |          5 |          0 |          0 |          5 |
+| d:\web deveploment\web by udemy\YelpCamp Project\views\partials\navbar.ejs          | HTML       |         23 |          0 |          0 |         23 |
+| d:\web deveploment\web by udemy\YelpCamp Project\views\users\login.ejs              | HTML       |         31 |          0 |          2 |         33 |
+| d:\web deveploment\web by udemy\YelpCamp Project\views\users\register.ejs           | HTML       |         38 |          0 |          1 |         39 |
+| Total                                                                               |            |     12,438 |         44 |        231 |     12,713 |
++-------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
